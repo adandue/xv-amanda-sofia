@@ -1,11 +1,11 @@
 import './misa.css'
 
-const Misa = () => {
+const Lugar = () => {
     return (
         <>
-        <h1>Misa</h1>
+        <h1>Lugar</h1>
         </>
     )
 }
 
-export { Misa }
+export { Lugar }
