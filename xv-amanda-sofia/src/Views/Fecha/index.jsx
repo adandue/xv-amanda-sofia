@@ -34,19 +34,20 @@ const Fecha = () => {
                     <h1 className='title' style={{fontFamily: 'Baskerville'}}>Fecha</h1>
                     <img src={fecha} alt='fecha' className='fecha'/>
                     <div className='container' style={{fontFamily: 'Baskerville'}}>
-                            <div className='timer'>
+                            <p className='text'>Faltan</p>
+                            <div className='timer days'>
                                 <h1>{days<10 ? '0' + days: days}</h1>
                                 <span className='text'>Días</span>
                             </div>
-                            <div className='timer'>
+                            <div className='timer hours' >
                                 <h1>{hours<10 ? '0' + hours: hours}</h1>
                                 <span className='text'>Horas</span>
                             </div>
-                            <div className='timer'>
+                            <div className='timer mins'>
                                 <h1>{mins<10 ? '0' + mins: mins}</h1>
                                 <span className='text'>Mins</span>
                             </div>
-                            <div className='timer'>
+                            <div className='timer secs'>
                                 <h1>{secs<10 ? '0' + secs: secs}</h1>
                                 <span className='text'>Segs</span>
                             </div>
