@@ -1,0 +1,19 @@
+.evento {
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.evento p {
+    margin: 0;
+}
+.evento h4 {
+    font-size: 3rem;
+}
+.icon {
+    width: 8rem;
+    height: auto;
+}

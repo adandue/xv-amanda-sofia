@@ -35,19 +35,19 @@ const Fecha = () => {
                     <img src={fecha} alt='fecha' className='fecha'/>
                     <div className='container' style={{fontFamily: 'Baskerville'}}>
                             <p className='text'>Faltan</p>
-                            <div className='timer days'>
+                            <div className='timer'>
                                 <h1>{days<10 ? '0' + days: days}</h1>
                                 <span className='text'>Días</span>
                             </div>
-                            <div className='timer hours' >
+                            <div className='timer' >
                                 <h1>{hours<10 ? '0' + hours: hours}</h1>
                                 <span className='text'>Horas</span>
                             </div>
-                            <div className='timer mins'>
+                            <div className='timer'>
                                 <h1>{mins<10 ? '0' + mins: mins}</h1>
                                 <span className='text'>Mins</span>
                             </div>
-                            <div className='timer secs'>
+                            <div className='timer'>
                                 <h1>{secs<10 ? '0' + secs: secs}</h1>
                                 <span className='text'>Segs</span>
                             </div>
