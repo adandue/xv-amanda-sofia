@@ -1,6 +1,5 @@
 import './introduccion.css'
-import '../../assets/fonts/baskerville-old-face.ttf'
-import '../../assets/fonts/edwardianscriptitc.ttf'
+
 
 const Introduccion = () => {
     return (

@@ -8,6 +8,8 @@ import { Hashtag } from './Views/Hashtag'
 import { Galeria } from './Views/Galeria'
 import { Confirmar } from './Views/Confirmar'
 import { Buzon } from './Views/Buzon'
+import './assets/fonts/baskerville-old-face.ttf'
+import './assets/fonts/edwardianscriptitc.ttf'
 import './App.css'
 
 function App() {
