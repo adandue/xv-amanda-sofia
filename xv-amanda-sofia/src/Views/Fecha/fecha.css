@@ -1,5 +1,7 @@
 @media screen and (min-width: 320px) {
-    
+    #fechaTitle {
+        align-self: flex-end;
+    }
     .container {
         width: 100%;
         display: grid;
@@ -9,6 +11,7 @@
         grid-template-rows: (10%, 90%);
         text-align: center;
         grid-area: 3 / 1 / 4 / 2;
+        align-self: flex-start;
     }
     .container p {
         grid-area: 1 / 1 / 2 / 5;

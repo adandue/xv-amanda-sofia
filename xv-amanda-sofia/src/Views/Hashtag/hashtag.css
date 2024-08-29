@@ -12,6 +12,12 @@
         margin-right: 2rem;
         margin-top: 2rem;
     }
+    #hashtagTitle {
+        align-self: flex-end;
+    }
+    #hashtagSocial {
+        align-self: flex-start;
+    }
 }
 @media screen and (min-width:425px) {
     .hashtag {

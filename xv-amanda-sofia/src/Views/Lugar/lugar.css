@@ -13,3 +13,9 @@
         margin: 0 5%;
     }
 }
+#celebracion {
+    align-self: flex-end;
+}
+#haras {
+    align-self: flex-start;
+}

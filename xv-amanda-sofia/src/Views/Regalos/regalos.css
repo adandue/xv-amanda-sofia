@@ -18,6 +18,12 @@
         width: 8rem;
         height: auto;
     }
+    #regaloTitle {
+        align-self: flex-end;
+    }
+    #mesaRegalos {
+        align-self: flex-start;
+    }
 }
 @media screen and (min-width:425px) {
     .evento h4 {
