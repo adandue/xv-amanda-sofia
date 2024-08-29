@@ -12,7 +12,7 @@ const Lugar = () => {
                 target='_blank'
                 rel='noreferrer'
                 >
-                    <img src={location} alt='location' className='location'/>
+                    <img src={location} alt='location' className='location' id='locationImg'/>
                 </a>
             </div>
         </div>

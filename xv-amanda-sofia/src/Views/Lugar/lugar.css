@@ -12,10 +12,14 @@
     .title {
         margin: 0 5%;
     }
+    #locationImg{
+        padding-bottom: 10rem;
+    }
 }
 #celebracion {
     align-self: flex-end;
 }
 #haras {
     align-self: flex-start;
+    margin-top: 2.5rem;
 }

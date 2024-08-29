@@ -32,7 +32,7 @@ const Fecha = () => {
             <div className='wrapper'>
                 <div className='background'>
                     <h1 className='title' id='fechaTitle' style={{fontFamily: 'Baskerville'}}>Fecha</h1>
-                    <img src={fecha} alt='fecha' className='fecha'/>
+                    <img src={fecha} alt='fecha' className='fecha' id='fechaImg'/>
                     <div className='container' style={{fontFamily: 'Baskerville'}}>
                             <p className='text'>Faltan</p>
                             <div className='timer'>
