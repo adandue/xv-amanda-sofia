@@ -3,6 +3,7 @@ import { FaEnvelope } from "react-icons/fa";
 import './regalos.css'
 
 const Regalos = () => {
+
     return (
         <>
             <div className='wrapper'>

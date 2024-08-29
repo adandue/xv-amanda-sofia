@@ -10,7 +10,7 @@ const Fecha = () => {
     const [mins, setMinutes ] = useState(0)
     const [secs, setSeconds] = useState(0)
 
-    const deadline = 'December, 14, 2024'
+    const deadline = 'December, 14, 2024, 17:45'
 
     const getTime = () => {
         const time = Date.parse(deadline) - Date.now()

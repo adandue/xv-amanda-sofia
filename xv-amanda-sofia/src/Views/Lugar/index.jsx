@@ -3,7 +3,7 @@ import './lugar.css'
 
 const Lugar = () => {
     return (
-        <div className='wrapper'>
+        <div className='wrapper' style={{ backgroundImage: `url("https://cdn0.bodas.com.mx/vendor/1431/3_2/960/jpeg/whatsapp-image-2023-02-08-at-3-55-17-pm_5_251431-167589478986635.webp")`}}>
             <div className='background'>
                 <p className='text' style={{fontFamily: 'Baskerville'}}>La celebrción Religiosa y recepción se llevará a cabo en </p>
                 <h1 className='title ' style={{fontFamily: 'EdwardianScript'}}>Antiguo Hípico las Haras</h1>

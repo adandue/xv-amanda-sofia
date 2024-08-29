@@ -1,13 +1,52 @@
-.hashtag {
-    font-size: 2.5rem;
-    text-align: center;
-    align-self: center;
+@media screen and (min-width:320px) {
+    .hashtag {
+        font-size: 2.5rem;
+        text-align: center;
+        align-self: center;
+    }
+    .social {
+        display: flex;
+    }
+    .social .icon {
+        width: 6rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
 }
-.social {
-    display: flex;
+@media screen and (min-width:425px) {
+    .hashtag {
+        font-size: 3rem;
+    }
 }
-.social .icon {
-    width: 6rem;
-    margin-right: 2rem;
-    margin-top: 2rem;
+@media screen and (min-width:768px) {
+    .hashtag {
+        font-size: 6rem;
+    }
+    .social .icon{
+        width: 10rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .hashtag {
+        font-size: 8rem;
+    }
+    .social .icon {
+        width: 13rem;
+    }
+}
+@media screen and (min-width:1440px) {
+    .hashtag {
+        font-size: 10rem;
+    }
+    .social .icon {
+        width: 15rem;
+    }
+}
+@media screen and (min-width:2560px) {
+    .hashtag {
+        font-size: 20rem;
+    }
+    .social .icon {
+        width: 30rem;
+    }
 }

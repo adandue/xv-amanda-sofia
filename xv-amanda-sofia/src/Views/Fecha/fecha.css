@@ -23,3 +23,35 @@
         font-size: 1.5rem;
     }
 }
+@media screen and (min-width:768px) {
+    .timer {
+        font-size: 3rem;
+    }
+    .container span {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .timer {
+        font-size: 5rem;
+    }
+    .container span {
+        font-size: 4rem;
+    }
+}
+@media screen and (min-width:1440px) {
+    .timer {
+        font-size: 7rem;
+    }
+    .container span {
+        font-size: 6rem;
+    }
+}
+@media screen and (min-width:2560px) {
+    .timer {
+        font-size: 14rem;
+    }
+    .container span {
+        font-size: 12rem;
+    }
+}
