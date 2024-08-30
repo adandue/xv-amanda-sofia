@@ -1,4 +1,12 @@
 @media screen and (min-width:320px) {
+    #hashtagWrapper {
+        background-image: url("https://cdna.artstation.com/p/assets/images/images/025/445/726/medium/luna-garcia-san-segundo-4214671a-dec0-4981-b180-875f09f00be3.jpg?1585818314");
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .hashtag {
         font-size: 2.5rem;
         text-align: center;
@@ -34,25 +42,9 @@
 }
 @media screen and (min-width:1024px) {
     .hashtag {
-        font-size: 8rem;
+        font-size: 5rem;
     }
     .social .icon {
-        width: 13rem;
-    }
-}
-@media screen and (min-width:1440px) {
-    .hashtag {
-        font-size: 10rem;
-    }
-    .social .icon {
-        width: 15rem;
-    }
-}
-@media screen and (min-width:2560px) {
-    .hashtag {
-        font-size: 20rem;
-    }
-    .social .icon {
-        width: 30rem;
+        width: 10rem;
     }
 }

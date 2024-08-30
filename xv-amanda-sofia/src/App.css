@@ -69,13 +69,13 @@ html {
 }
 @media screen and (min-width:1024px) {
     .title {
-        font-size: 10.5rem;
-    }
-    .text {
         font-size: 7rem;
     }
+    .text {
+        font-size: 4.5rem;
+    }
     .name {
-        font-size: 10.5rem;
+        font-size: 7rem;
     }
 }
 @media screen and (min-width:1440px) {
