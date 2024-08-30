@@ -4,3 +4,11 @@
 #amandaSofia {
     align-self: flex-start;
 }
+@media screen and (min-width: 667px) {
+    #luisGuadalupe {
+        margin-bottom: 1.5rem;
+    }
+    #amandaSofia {
+        margin-top: 1.5rem;
+    }
+}

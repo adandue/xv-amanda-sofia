@@ -1,7 +1,11 @@
 @media screen and (min-width: 320px) {
     .luna {
         grid-area: 3 / 1 / 4 / 2;
-        margin-bottom: 5rem;
+        width: 70%;
+        height: auto;
+        margin: 0px 20% 28%;
+        justify-self: center;
+        align-self: center;
     }
     #compania {
         align-self: flex-end;
@@ -12,8 +16,16 @@
     }
 }
 
+@media screen and (min-width: 667px) {
+    .luna {
+        width: 30%;
+        margin: 0;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .luna {
         width: 10rem;
+        
     }
 }

@@ -32,6 +32,27 @@
         font-size: 1.5rem;
     }
 }
+@media screen and (min-width: 667px) {
+    #fechaBackground {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 20% 80%;
+    }
+    #fechaTitle {
+        margin: 4.5rem 0 0 0 ;
+        grid-area: 1 / 1 / 2 / 3;
+    }
+    #fechaImg {
+        grid-area: 2 / 1 / 3 / 2;
+        padding: 0;
+        width: 70%;
+        align-self: center;
+        justify-self: center;
+    }
+    .container {
+        grid-area: 2 / 2 / 3 / 3;
+        align-self: center;
+    }
+}
 @media screen and (min-width:768px) {
     .timer {
         font-size: 3rem;

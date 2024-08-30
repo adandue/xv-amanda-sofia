@@ -7,13 +7,19 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    #locationImg {
+        grid-area: 3 / 1 / 4 / 2;
+        width: 70%;
+        height: auto;
+        margin: 0;
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 6rem;
+    }
 }
 @media screen and (min-width:375px) {
     .title {
         margin: 0 5%;
-    }
-    #locationImg{
-        padding-bottom: 10rem;
     }
     #lugarText {
         align-self: flex-end;
@@ -21,6 +27,14 @@
     #lugarTitle {
         align-self: flex-start;
         margin-top: 2.5rem;
+    }
+}
+@media screen and (min-width:667px) {
+    #lugarText {
+        margin: 4.5rem 20% 0;
+    }
+    #locationImg {
+        width: 26%;
     }
 }
 @media screen and (min-width:1024px) {

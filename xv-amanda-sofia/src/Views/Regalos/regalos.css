@@ -33,6 +33,11 @@
         width: 10rem;
     }
 }
+@media screen and (min-width: 667px) {
+    #regaloTitle {
+        margin-top: 1.5rem;
+    }
+}
 @media screen and (min-width:768px) {
     .evento h4 {
         font-size: 6rem;

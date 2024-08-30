@@ -7,7 +7,7 @@ const Regalos = () => {
     return (
         <>
             <div className='wrapper'>
-                <div className='background'>
+                <div className='background' id="backgroundRegalo">
                     <div className="evento" id="regaloTitle">
                         <h1 className='title ' style={{fontFamily: 'EdwardianScript'}}>El mejor regalo es su presencia</h1>
                         <h4 className='title ' style={{fontFamily: 'EdwardianScript'}}>Si gustan también puede ser</h4>
