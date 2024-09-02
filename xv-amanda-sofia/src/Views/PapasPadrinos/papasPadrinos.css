@@ -22,6 +22,12 @@
         margin: 0;
     }
 }
+@media screen and (min-width: 768px) {
+    .luna {
+        width: 25%;
+        margin-bottom: 2rem;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     .luna {

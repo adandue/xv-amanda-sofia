@@ -42,10 +42,11 @@
 }
 @media screen and (min-width:768px) {
     .hashtag {
-        font-size: 6rem;
+        font-size: 4rem;
     }
     .social .icon{
-        width: 10rem;
+        width: 6rem;
+        margin-bottom: 3rem;
     }
 }
 @media screen and (min-width:1024px) {

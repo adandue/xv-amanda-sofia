@@ -37,6 +37,11 @@
         width: 26%;
     }
 }
+@media screen and (min-width: 768px) {
+    #locationImg {
+        width: 20%;
+    } 
+}
 @media screen and (min-width:1024px) {
     #lugarText {
         margin-top: 3rem;
