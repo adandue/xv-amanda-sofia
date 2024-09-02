@@ -80,3 +80,14 @@
         font-size: 3rem;
     }
 }
+@media screen and (min-width: 1440px) {
+    .icon {
+        width: 12rem;
+    }
+    #sobres p {
+        font-size: 5rem;
+    }
+    #mesaRegalos p {
+        font-size: 5rem;
+    }
+}

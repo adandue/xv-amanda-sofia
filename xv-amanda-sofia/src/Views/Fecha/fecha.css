@@ -84,11 +84,18 @@
     }
 }
 @media screen and (min-width:1440px) {
+    #fechaTitle {
+        font-size: 10rem;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    #fechaImg {
+        width: 60%;
+    }
     .timer {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .container span {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 @media screen and (min-width:2560px) {

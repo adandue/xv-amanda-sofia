@@ -86,23 +86,12 @@ html {
 }
 @media screen and (min-width:1440px) {
     .title {
-        font-size: 7rem;
+        font-size: 9rem;
     }
     .text {
-        font-size: 10rem;
+        font-size: 5rem;
     }
     .name {
-        font-size: 15rem;
-    }
-}
-@media screen and (min-width:2560px) {
-    .title {
-        font-size: 30rem;
-    }
-    .text {
-        font-size: 20rem;
-    }
-    .name {
-        font-size: 30rem;
+        font-size: 9rem;
     }
 }
