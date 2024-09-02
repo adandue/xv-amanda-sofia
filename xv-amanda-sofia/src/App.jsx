@@ -5,7 +5,6 @@ import { Fecha } from './Views/Fecha'
 import { Lugar } from './Views/Lugar'
 import { Regalos } from './Views/Regalos'
 import { Hashtag } from './Views/Hashtag'
-import { Galeria } from './Views/Galeria'
 import { Confirmar } from './Views/Confirmar'
 import { Buzon } from './Views/Buzon'
 import './assets/fonts/baskerville-old-face.ttf'
@@ -23,7 +22,6 @@ function App() {
       <Lugar />
       <Regalos />
       <Hashtag />
-      <Galeria />
       <Confirmar />
       <Buzon />
     </>
