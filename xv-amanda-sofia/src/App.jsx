@@ -10,6 +10,7 @@ import { Buzon } from './Views/Buzon'
 import './assets/fonts/baskerville-old-face.ttf'
 import './assets/fonts/edwardianscriptitc.ttf'
 import './App.css'
+import { Galeria } from './Views/Galeria'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <PapasPadrinos />
       <Fecha />
       <Lugar />
+      <Galeria />
       <Regalos />
       <Hashtag />
       <Confirmar />
