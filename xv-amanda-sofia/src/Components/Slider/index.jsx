@@ -22,6 +22,18 @@ import sofi18 from '../../assets/sofi-18.jpeg'
 import sofi19 from '../../assets/sofi-19.jpeg'
 import sofi20 from '../../assets/sofi-20.jpeg'
 import sofi21 from '../../assets/sofi-21.jpeg'
+import sofi22 from '../../assets/sofi-22.jpeg'
+import sofi23 from '../../assets/sofi-23.jpeg'
+import sofi24 from '../../assets/sofi-24.jpeg'
+import sofi25 from '../../assets/sofi-25.jpeg'
+import sofi26 from '../../assets/sofi-26.jpeg'
+import sofi27 from '../../assets/sofi-27.jpeg'
+import sofi28 from '../../assets/sofi-28.jpeg'
+import sofi29 from '../../assets/sofi-29.jpeg'
+import sofi30 from '../../assets/sofi-30.jpeg'
+import sofi31 from '../../assets/sofi-31.jpeg'
+import sofi32 from '../../assets/sofi-32.jpeg'
+
 import './slider.css'
 
 const Slider = () => {
@@ -47,6 +59,17 @@ const Slider = () => {
         sofi19,
         sofi20,
         sofi21,
+        sofi22,
+        sofi23,
+        sofi24,
+        sofi25,
+        sofi26,
+        sofi27,
+        sofi28,
+        sofi29,
+        sofi30,
+        sofi31,
+        sofi32,
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)

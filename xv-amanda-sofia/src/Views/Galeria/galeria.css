@@ -1,3 +1,6 @@
+#background-galeria {
+    grid-template-rows: 15% 42.5% 42.5%;
+}
 .slider-container {
     grid-area: 2 / 1 / 4 / 2;
     align-self: center;
@@ -12,7 +15,7 @@
     overflow: hidden;
     position: relative;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:667px) {
     h1 {
         display: none;
     }
