@@ -67,7 +67,7 @@
         flex-direction: column;
     }
     .slider-image img {
-        max-width: 45%;
+        max-width: 40%;
     }
     .left-arrow, .right-arrow {
         top: auto;
