@@ -16,7 +16,7 @@
     position: relative;
 }
 @media screen and (min-width:667px) {
-    h1 {
+    #galeria-title {
         display: none;
     }
     .slider-container {

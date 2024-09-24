@@ -2,7 +2,7 @@
     #lugarWrapper {
         background-image: url("https://cdn0.bodas.com.mx/vendor/1431/3_2/960/jpeg/whatsapp-image-2023-02-08-at-3-55-17-pm_5_251431-167589478986635.webp");
         position: relative;
-        backgroundAttachment: scroll;
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
