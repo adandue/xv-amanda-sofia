@@ -9,7 +9,7 @@
         flex-direction: column;
     }
     .evento p {
-        margin: 0;
+        margin: 0 10%;
     }
     .evento h4 {
         font-size: 3rem;

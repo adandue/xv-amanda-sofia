@@ -2,7 +2,13 @@
     #confirmarTitle {
         font-size: 4.5rem;
         align-self: flex-end;
-    } 
+    }
+    .dress-code {
+        font-size: 1.8rem;
+        text-align: center;
+        align-self: center;
+        text-align: center;
+    }
     .button {
         appearance: none;
         background-color: #3c3c3c;
