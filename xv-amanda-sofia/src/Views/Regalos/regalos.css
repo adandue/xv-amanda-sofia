@@ -17,6 +17,7 @@
     .icon {
         width: 8rem;
         height: auto;
+        align-self: center;
     }
     #regaloTitle {
         align-self: flex-end;
