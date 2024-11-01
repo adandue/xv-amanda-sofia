@@ -7,7 +7,7 @@ const Confirmar = () => {
         <>
         <div className='wrapper'>
             <div className='background' id='backgroundConfirmar'>
-                <h1 className='title' id='confirmarTitle' style={{fontFamily: 'EdwardianScript'}}>Confirma tu asistencia</h1>
+                <h1 className='title' id='confirmarTitle' style={{fontFamily: 'EdwardianScript'}}>Favor de confirmar su asistencia</h1>
                 <div className='evento'>
                     <p className='text'>Será una noche increíble</p>
                     <p className='text'>¡Lo esperamos!</p>
